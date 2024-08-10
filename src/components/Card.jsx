@@ -18,14 +18,16 @@ export default Card
 
 const Main=styled.div`
 display:flex;
+justify-content:center;
 flex-wrap:wrap;
 padding:20px;
 margin-top:10px;
 margin:5%;
+
 `;
 const Box=styled.div`
     height:200px;
-    width:250px;
+    width:275px;
     padding:20px;
     border-radius: 10px;
     background-color:#DFD3C3 ;
